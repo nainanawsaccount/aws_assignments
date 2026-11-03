@@ -1,0 +1,36 @@
+git init: initializing an empty git repo in local
+
+git clone <https url>: cloning git repo in local
+
+cd: change directory to repo folder
+
+git branch: list all branches
+
+git branch <branch_name>: create branch according to user story
+
+git checkout: switch to another branch and check it out into your working directory
+
+git merge <branch_name> : merge the specified branch’s history into the current one
+
+-----------Pushing code to github----------
+git status: checking status of uncommited code
+
+git add . : to update what will be committed.
+
+git add <file_name>: adding single file to commit.
+
+git reset <file_name>: unstage a file while keeping the changes in working directory
+
+git restore <file_name>: to discard changes in working directory
+
+git diff: difference of what is changed but not staged
+
+git diff --staged: diff of what is staged but not yet commited
+
+git commit -m "commit info": commiting your code.
+
+git push origin <branch_name>: pushing your code to git.
+
+------Pulling from github-----------
+
+git pull: fetch and merge any commits from the tracking remote branch
